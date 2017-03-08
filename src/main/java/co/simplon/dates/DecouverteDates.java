@@ -23,8 +23,7 @@ public class DecouverteDates {
 	public Date construireDate(String chaineFournie) throws ParseException {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 		return dateFormat.parse(chaineFournie);
-		
-		
+			
 	}
 	public Date augmenterDate(Date dateInitiale, int nombreJours, int nombreHeures, int nombreMinutes) {
 		// TODO
